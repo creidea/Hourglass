@@ -21,6 +21,9 @@
 		CCC168BD1A793BEA00895756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1689F1A793BEA00895756 /* UIKit.framework */; };
 		CCC168C51A793BEA00895756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC168C31A793BEA00895756 /* InfoPlist.strings */; };
 		CCC168C71A793BEA00895756 /* HourglassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168C61A793BEA00895756 /* HourglassDemoTests.m */; };
+		CCC168D21A793C0300895756 /* JWHourglassView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC168D11A793C0300895756 /* JWHourglassView.m */; };
+		CCC168D51A793CA200895756 /* running_timer_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC168D31A793CA200895756 /* running_timer_bg.png */; };
+		CCC168D61A793CA200895756 /* running_timer_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC168D41A793CA200895756 /* running_timer_bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		CCC168C21A793BEA00895756 /* HourglassDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HourglassDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CCC168C41A793BEA00895756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCC168C61A793BEA00895756 /* HourglassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HourglassDemoTests.m; sourceTree = "<group>"; };
+		CCC168D01A793C0300895756 /* JWHourglassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWHourglassView.h; sourceTree = "<group>"; };
+		CCC168D11A793C0300895756 /* JWHourglassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWHourglassView.m; sourceTree = "<group>"; };
+		CCC168D31A793CA200895756 /* running_timer_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running_timer_bg.png; sourceTree = "<group>"; };
+		CCC168D41A793CA200895756 /* running_timer_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "running_timer_bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,8 @@
 		CCC168A11A793BEA00895756 /* HourglassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CCC168D01A793C0300895756 /* JWHourglassView.h */,
+				CCC168D11A793C0300895756 /* JWHourglassView.m */,
 				CCC168AA1A793BEA00895756 /* QYAppDelegate.h */,
 				CCC168AB1A793BEA00895756 /* QYAppDelegate.m */,
 				CCC168AD1A793BEA00895756 /* Main.storyboard */,
@@ -126,6 +135,8 @@
 		CCC168A21A793BEA00895756 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCC168D31A793CA200895756 /* running_timer_bg.png */,
+				CCC168D41A793CA200895756 /* running_timer_bg@2x.png */,
 				CCC168A31A793BEA00895756 /* HourglassDemo-Info.plist */,
 				CCC168A41A793BEA00895756 /* InfoPlist.strings */,
 				CCC168A71A793BEA00895756 /* main.m */,
@@ -229,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC168D51A793CA200895756 /* running_timer_bg.png in Resources */,
+				CCC168D61A793CA200895756 /* running_timer_bg@2x.png in Resources */,
 				CCC168B41A793BEA00895756 /* Images.xcassets in Resources */,
 				CCC168A61A793BEA00895756 /* InfoPlist.strings in Resources */,
 				CCC168AF1A793BEA00895756 /* Main.storyboard in Resources */,
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC168D21A793C0300895756 /* JWHourglassView.m in Sources */,
 				CCC168AC1A793BEA00895756 /* QYAppDelegate.m in Sources */,
 				CCC168A81A793BEA00895756 /* main.m in Sources */,
 				CCC168B21A793BEA00895756 /* QYViewController.m in Sources */,
